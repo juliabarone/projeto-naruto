@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("manga.jpg"); 
+    
+}
+
+.imagem-fundo{
+max-width: 100%;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background-color: rgba(0, 0,0,0.6);
+
+}
+
+.cabecalho-imagem{
+    width: 140px;
+    height: 60px;
+}
+
+
+.cabecalho-navegacao{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-navegacao-item{
+    font-family: montserrat;
+    color: aliceblue;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 25px ;
+    padding: 10px;
+}
+.cabecalho-navegacao-item:hover{
+    background-color: rgba(255, 249, 245, 0.53);
+}
+
+.principal{
+    margin-bottom: 48px;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    gap: 32px;
+    flex-direction:column ;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: 60px;
+    color: aliceblue;
+    padding-left: 100px;
+    
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: montserrat;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(249, 253, 255);
+    padding-left: 100px;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 100px;
+}
+
+.botoes2{
+    margin-left: 35px;
+    
+}
+
+.conteudo-principal-escrito-botao{
+    background-color: #f7f7f7;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    font-family: montserrat;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.conteudo-principal-escrito-botao:hover{
+    background-color: rgba(255, 249, 245, 0.53);
+}
+
+.conteudo-principal-imagem{
+    height: 750px;
+    margin-top: 30px;
+    margin-right: 150px;
+    
+}
+
+
+.conteudo-principal-escrito-paragrafo{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    font-family: montserrat;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: left;
+    max-width: 600px;
+    margin: 0px 0px 0px 100px;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+
+.rodape{
+    padding: 24px;
+background-color: rgba(0,0,0,0.6);
+
+}
+
+.rodape-imagem{
+    width: 72px;
+    height: 35px;
+    display: block;
+    margin: 0 auto;
+}
